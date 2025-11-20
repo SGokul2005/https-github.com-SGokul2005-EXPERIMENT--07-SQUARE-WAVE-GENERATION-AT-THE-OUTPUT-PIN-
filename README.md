@@ -99,6 +99,7 @@ Step14. click on debug and simulate using simulation as shown below
   
 
 ## STM 32 CUBE PROGRAM :
+```
 #include "main.h"
 
 TIM_HandleTypeDef htim2;
@@ -214,7 +215,7 @@ void Error_Handler(void)
 void assert_failed(uint8_t *file, uint32_t line)
 {
 }
-
+```
 
 
 
